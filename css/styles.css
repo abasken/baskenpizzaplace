@@ -1,0 +1,487 @@
+
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+
+
+
+body{
+    font-family: "Belleza", sans-serif;;
+    margin: 0;
+    padding: 0;
+    background: #1b7d3e;
+    color: white;
+  
+}
+
+.gridcontainer{
+
+  text-align: center;
+}
+
+
+.gridmenu{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: black;
+ 
+}
+  
+a{
+   color: white;
+  text-decoration: none;
+  
+}
+
+.Logo{
+
+  padding-top: 15px;
+}
+
+
+.MenuTitle{
+ 
+  padding-top: 60px;
+}
+
+
+.PizzaMenu{
+
+
+  padding-top: 25px;
+}
+
+.MenuItemTitlePizza{
+
+  padding-bottom: 2px;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.MenuItemTitleSalad{
+
+  padding-bottom: 2px;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.MenuItemTitleSandwich{
+
+  padding-bottom: 2px;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.MenuItemTitleCocktail{
+
+  padding-bottom: 2px;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.MenuItemTitleAppetizer{
+
+  padding-bottom: 2px;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.MenuItemTitleDressing{
+
+  padding-bottom: 20px;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.pizza1{
+
+  display: none;
+}
+
+
+.MenuItemDetailsPizza{
+
+padding-top: 10px;
+font-size: 15px;
+font-style: italic;
+
+}
+
+.MenuItemDetailsSalad{
+
+padding-top: 10px;
+font-size: 15px;
+font-style: italic;
+
+}
+
+.MenuItemDetailsSandwich{
+
+padding-top: 10px;
+font-size: 15px;
+font-style: italic;
+
+}
+
+.MenuItemDetailsCocktail{
+
+padding-top: 10px;
+font-size: 15px;
+font-style: italic;
+
+}
+
+.MenuItemDetailsDrink{
+
+padding-top: 10px;
+font-size: 15px;
+font-style: italic;
+
+}
+
+.MenuItemDetailsAppetizer{
+
+padding-top: 10px;
+font-size: 15px;
+font-style: italic;
+
+}
+
+
+.BYOP{
+
+
+  font-size: 23px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+
+
+.BYOPBOTTOM{
+
+
+  padding-bottom: 20px;
+}
+
+.BWSTitle{
+
+  padding-top: 12px;
+  font-size: 18px;
+
+}
+
+.DrinkChoice{
+
+  padding-top: 1px;
+  padding-bottom: 2px;
+
+
+}
+
+
+h1{
+
+  font-size: 35px;
+}
+
+
+.Phone{
+
+  padding-top: 20px;
+  font-size: 15px;
+
+
+}
+
+.MapBoundBox{
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding-top: 20px;
+padding-bottom: 20px;
+  
+}
+
+.ADDY{
+
+  padding-bottom: 30px;
+}
+
+.ReturnTop{
+
+  background-color: red;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  font-size: 20px;
+  
+}
+
+.SaladImage{
+
+  padding-top: 15px;
+  display: none;
+}
+
+
+.SandwichPhoto{
+
+  display: none;
+}
+
+
+
+
+@media (min-width: 700px){
+
+  
+.gridcontainer{
+
+  text-align: center;
+}
+
+
+.gridmenu{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: black;
+ 
+}
+  
+
+a{
+   color: white;
+  text-decoration: none;
+  
+}
+
+.Logo{
+
+  padding-top: 15px;
+}
+
+.PizzaHistory{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 40px;
+}
+
+.PizzaGuy{
+
+  max-width: 100%;
+}
+
+.MenuTitle{
+ 
+  padding-top: 60px;
+}
+
+
+.PizzaMenu{
+
+  padding-top: 25px;
+}
+
+.GridPizza{
+
+ text-align: left; 
+}
+
+
+
+.MenuItemTitlePizza{
+
+  padding-bottom: 2px;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.MenuItemTitleSalad{
+
+  padding-bottom: 2px;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.MenuItemTitleSandwich{
+
+  padding-bottom: 2px;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.MenuItemTitleCocktail{
+
+  padding-bottom: 2px;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.MenuItemTitleAppetizer{
+
+  padding-bottom: 2px;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.MenuItemTitleDressing{
+
+  padding-bottom: 20px;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+
+
+.MenuItemDetailsPizza{
+
+padding-top: 10px;
+font-size: 15px;
+font-style: italic;
+
+}
+
+.MenuItemDetailsSalad{
+
+padding-top: 10px;
+font-size: 15px;
+font-style: italic;
+
+}
+
+.MenuItemDetailsSandwich{
+
+padding-top: 10px;
+font-size: 15px;
+font-style: italic;
+
+}
+
+.MenuItemDetailsCocktail{
+
+padding-top: 10px;
+font-size: 15px;
+font-style: italic;
+
+}
+
+.MenuItemDetailsDrink{
+
+padding-top: 10px;
+font-size: 15px;
+font-style: italic;
+
+}
+
+.MenuItemDetailsAppetizer{
+
+padding-top: 10px;
+font-size: 15px;
+font-style: italic;
+
+}
+
+.SubMenuDetails{
+
+  font-style: italic;
+  padding-bottom: 8px;
+}
+
+
+.BYOP{
+
+
+  font-size: 23px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+
+
+.BYOPBOTTOM{
+
+
+  padding-bottom: 20px;
+}
+
+.BWSTitle{
+
+  padding-top: 12px;
+  font-size: 18px;
+
+}
+
+.DrinkChoice{
+
+  padding-top: 1px;
+  padding-bottom: 2px;
+
+
+}
+
+
+h1{
+
+  font-size: 35px;
+}
+
+
+.Phone{
+
+  padding-top: 20px;
+  font-size: 15px;
+
+
+}
+
+.MapBoundBox{
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding-top: 20px;
+padding-bottom: 20px;
+  
+}
+
+.ADDY{
+
+  padding-bottom: 30px;
+}
+
+.ReturnTop{
+
+  background-color: red;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  font-size: 20px;
+  
+}
+
+.SaladImage{
+
+  padding-top: 15px;
+  display: block;
+}
+
+
+.SandwichPhoto{
+
+  padding-top: 40px;
+  display: block;
+}
+ 
+}
+
